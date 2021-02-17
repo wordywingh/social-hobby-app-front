@@ -71,7 +71,7 @@ export class CommentForm extends Component {
 }
 
 CommentForm.propTypes = {
-  submitcomment: PropTypes.func.isRequired,
+  submitComment: PropTypes.func.isRequired,
   UI: PropTypes.object.isRequired,
   classes: PropTypes.object.isRequired,
   screamId: PropTypes.string.isRequired,

@@ -44,7 +44,7 @@ export default function (state = initialState, action) {
         state.scream = action.payload;
         state.scream.comments = comments;
       }
-      // after 29 comments fix come back
+      // fix according to 29's comments
       return {
         ...state,
       };
